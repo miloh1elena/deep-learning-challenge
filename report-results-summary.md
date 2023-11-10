@@ -70,3 +70,6 @@ Further optimization can be explored by adjusting hyperparameters, trying differ
 Exploring advanced techniques such as feature engineering or using more sophisticated models like gradient boosting or deep neural networks with additional layers may provide incremental improvements.
 
 This recommendation is based on the understanding that model performance depends on the problem at hand, and a continuous iterative process is crucial for refining and enhancing predictive capabilities.
+
+# Final Thoughts 
+A Random Forest model could be a suitable alternative. Unlike neural networks, Random Forests handle diverse data types more effortlessly, simplifying the preprocessing steps. They are less sensitive to extreme values, providing stability for datasets like charities. The ensemble nature of Random Forests combines multiple decision trees, offering good predictive performance. Importantly, this model provides feature importance scores, making it more understandable for non-technical audiences. In essence, choosing a Random Forest strikes a balance between accuracy, simplicity, and resilience to unusual data points, presenting a practical option for forecasting Alphabet Soup's funded organizations' success.
